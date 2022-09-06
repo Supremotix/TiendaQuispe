@@ -1,3 +1,4 @@
+/*
 import logo from './logo.svg';
 import './App.css';
 
@@ -21,5 +22,19 @@ function App() {
     </div>
   );
 }
+
+export default App;
+*/
+
+import React from "react";
+import Header from "./Components/Header/Header";
+
+const App = () => {
+  return (
+    <>
+      <Header />
+    </>
+  );
+};
 
 export default App;
