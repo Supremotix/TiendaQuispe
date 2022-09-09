@@ -28,11 +28,12 @@ export default App;
 
 import React from "react";
 import Header from "./Components/Header/Header";
-
+import ItemListContainer from "./Components/ItemListContainer/itemListContainer";
 const App = () => {
   return (
     <>
       <Header />
+      <ItemListContainer greeting='Bienvenidos'/>
     </>
   );
 };
